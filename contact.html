@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact | Stork Home Services</title>
+    <meta
+      name="description"
+      content="Request a visit from Stork Home Services in Naples, Florida for home services, appliances, installations, or renovations."
+    />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/analytics.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="index.html">
+          <img src="assets/logo.svg" alt="" width="44" height="44" />
+          <span class="brand-name">
+            Stork Home Services
+            <span>Naples, Florida</span>
+          </span>
+        </a>
+        <button
+          class="nav-toggle"
+          type="button"
+          data-nav-toggle
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav id="site-nav" class="nav" data-nav>
+          <a href="index.html">Home</a>
+          <a href="index.html#services">Services</a>
+          <a href="index.html#appliances">Appliances</a>
+          <a href="index.html#about">About</a>
+          <a href="contact.html" aria-current="page">Contact</a>
+          <a class="btn btn-primary" href="mailto:office@storkhomeservices.com?subject=Request%20a%20visit">Contact us</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-hero">
+        <div class="wrap">
+          <h1>Tell us what the house needs.</h1>
+          <p>
+            Share a few details and we will follow up about a visit in Naples or
+            nearby Collier County. Photos of the room or appliance help.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrap contact-layout">
+          <div>
+            <form
+              class="contact-form"
+              data-contact-form
+              action="#"
+              method="post"
+            >
+              <div class="field">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" autocomplete="name" required />
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="phone">Phone</label>
+                <input
+                  id="phone"
+                  name="phone"
+                  type="tel"
+                  autocomplete="tel"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="service">Service needed</label>
+                <select id="service" name="service" required>
+                  <option value="">Choose one</option>
+                  <option>Home services</option>
+                  <option>Home appliances</option>
+                  <option>Refrigerator installation</option>
+                  <option>Washer installation</option>
+                  <option>Dryer installation</option>
+                  <option>Ice machine installation</option>
+                  <option>Wine cooler installation</option>
+                  <option>Freezer installation</option>
+                  <option>Microwave installation</option>
+                  <option>Garbage disposal installation</option>
+                  <option>Oven installation</option>
+                  <option>Stove installation</option>
+                  <option>Range installation</option>
+                  <option>Dishwasher installation</option>
+                  <option>Installations</option>
+                  <option>Renovations</option>
+                  <option>Not sure yet</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="zip">ZIP code</label>
+                <input
+                  id="zip"
+                  name="zip"
+                  type="text"
+                  inputmode="numeric"
+                  autocomplete="postal-code"
+                  maxlength="10"
+                />
+              </div>
+              <div class="field">
+                <label for="message">What should we know?</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  required
+                  placeholder="Appliance type, room, leak, timeline - whatever helps."
+                ></textarea>
+              </div>
+              <button class="btn btn-primary" type="submit">Send request</button>
+              <p class="form-note">
+                This static form currently confirms on the page only. Connect it
+                later to your email or form service.
+              </p>
+            </form>
+            <div class="form-success" data-form-success hidden tabindex="-1">
+              <h2>Thanks - we have the request.</h2>
+              <p>
+                Once the form is connected to email, this is where a real
+                confirmation will go. For now, call or email us directly if the
+                job is urgent.
+              </p>
+            </div>
+          </div>
+
+          <aside class="contact-aside">
+            <h2>Reach us directly</h2>
+            <p>
+              Prefer the phone? Use the number below. Replace these placeholders
+              with the live Naples contact details when they are ready.
+            </p>
+            <ul class="contact-list">
+              <li>
+                <span>Phone</span>
+                <a href="tel:+12395550100">(239) 555-0100</a>
+              </li>
+              <li>
+                <span>Email</span>
+                <a href="mailto:office@storkhomeservices.com"
+                  >office@storkhomeservices.com</a
+                >
+              </li>
+              <li>
+                <span>Area</span>
+                Naples, Florida &amp; Collier County
+              </li>
+              <li>
+                <span>Hours</span>
+                Monday–Friday, 8:00 a.m.–5:00 p.m.
+              </li>
+            </ul>
+            <div
+              class="media-placeholder"
+              style="min-height: 180px; margin-top: 1.5rem"
+              role="img"
+              aria-label="Placeholder for a shop or van photo"
+            >
+              <span>Replace with assets/contact.jpg</span>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-grid">
+        <div>
+          <h2>Stork Home Services</h2>
+          <p>
+            Home services, appliances, installations, and renovations in Naples,
+            Florida.
+          </p>
+        </div>
+        <div>
+          <h2>Visit</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#appliances">Appliances</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Contact</h2>
+          <ul>
+            <li>Naples, Florida</li>
+            <li><a href="tel:+12395550100">(239) 555-0100</a></li>
+            <li>
+              <a href="mailto:office@storkhomeservices.com"
+                >office@storkhomeservices.com</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2>Installations</h2>
+          <ul class="footer-installs">
+            <li><a href="refrigerator-installation.html">Refrigerator installation</a></li>
+            <li><a href="washer-installation.html">Washer installation</a></li>
+            <li><a href="dryer-installation.html">Dryer installation</a></li>
+            <li><a href="ice-machine-installation.html">Ice machine installation</a></li>
+            <li><a href="wine-cooler-installation.html">Wine cooler installation</a></li>
+            <li><a href="freezer-installation.html">Freezer installation</a></li>
+            <li><a href="microwave-installation.html">Microwave installation</a></li>
+            <li><a href="garbage-disposal-installation.html">Garbage disposal installation</a></li>
+            <li><a href="oven-installation.html">Oven installation</a></li>
+            <li><a href="stove-installation.html">Stove installation</a></li>
+            <li><a href="range-installation.html">Range installation</a></li>
+            <li><a href="dishwasher-installation.html">Dishwasher installation</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="wrap copyright">
+        © 2026 Stork Home Services. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
