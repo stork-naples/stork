@@ -1,6 +1,6 @@
 (function () {
   // Replace with your Google Analytics 4 Measurement ID, e.g. G-ABC123XYZ.
-  var MEASUREMENT_ID = "G-XXXXXXXXXX";
+  var MEASUREMENT_ID = "G-B5917J9Y81";
 
   if (!MEASUREMENT_ID || MEASUREMENT_ID.indexOf("XXXX") !== -1) {
     return;
