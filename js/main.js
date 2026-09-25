@@ -9,19 +9,4 @@
     });
   }
 
-  var form = document.querySelector("[data-contact-form]");
-  var success = document.querySelector("[data-form-success]");
-
-  if (form && success) {
-    form.addEventListener("submit", function (event) {
-      event.preventDefault();
-      if (!form.checkValidity()) {
-        form.reportValidity();
-        return;
-      }
-      form.hidden = true;
-      success.hidden = false;
-      success.focus();
-    });
-  }
 })();
